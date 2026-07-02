@@ -89,7 +89,7 @@
       h.classList.add("wr");
       var words = h.querySelectorAll(".ww");
       Array.prototype.forEach.call(words, function (w, i) {
-        w.style.transitionDelay = (i * 45) + "ms";
+        w.style.transitionDelay = (i * 90) + "ms";
       });
     });
   }
@@ -101,9 +101,9 @@
     // stagger gallery tiles
     document.querySelectorAll(".gallery").forEach(function (g) {
       Array.prototype.forEach.call(g.children, function (c, i) {
-        c.style.transitionDelay = (i * 90) + "ms";
+        c.style.transitionDelay = (i * 140) + "ms";
         var im = c.querySelector ? c.querySelector("img") : null;
-        if (im) im.style.transitionDelay = (i * 90) + "ms";
+        if (im) im.style.transitionDelay = (i * 140) + "ms";
       });
     });
   }
