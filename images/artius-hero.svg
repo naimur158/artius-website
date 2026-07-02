@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" width="1600" height="720" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Artius Ltd — hospitality, management and consultancy">
+  <title>Artius Ltd</title>
+  <desc>Branded hero banner for Artius Ltd, a hospitality group based in Chittagong, Bangladesh.</desc>
+  <defs>
+    <radialGradient id="aglow" cx="26%" cy="28%" r="85%">
+      <stop offset="0" stop-color="#272530"/>
+      <stop offset="55%" stop-color="#1a1920"/>
+      <stop offset="100%" stop-color="#121116"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="720" fill="url(#aglow)"/>
+
+  <!-- oversized monogram watermark -->
+  <text x="1245" y="640" font-family="Georgia, 'Times New Roman', serif" font-size="760" font-weight="700" fill="#ffffff" opacity="0.05" text-anchor="middle">A</text>
+
+  <!-- thin corner frame ticks -->
+  <g stroke="#403d46" stroke-width="2" fill="none">
+    <path d="M96 84 h46 M96 84 v46"/>
+    <path d="M1504 636 h-46 M1504 636 v-46"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="132" y="250" font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="8.5" fill="#d2552a">HOSPITALITY &#183; MANAGEMENT &#183; CONSULTANCY</text>
+
+  <!-- wordmark -->
+  <text x="126" y="408" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" letter-spacing="13" fill="#f4f2ed">ARTIUS</text>
+  <text x="134" y="470" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="26" fill="#d2552a">LTD</text>
+
+  <!-- ember rule -->
+  <rect x="134" y="512" width="118" height="3" fill="#d2552a"/>
+
+  <!-- descriptor -->
+  <text x="130" y="576" font-family="Georgia, 'Times New Roman', serif" font-size="33" fill="#cfcabf">A hospitality group crafting distinctive destinations.</text>
+
+  <!-- location -->
+  <text x="132" y="636" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="6" fill="#7c7872">CHITTAGONG &#183; BANGLADESH</text>
+</svg>
